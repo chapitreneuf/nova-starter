@@ -8,6 +8,7 @@ To start a new project:
 
 ```
 git clone --depth=1 --branch=master git@github.com:edinum/nova-starter.git projectname
+cd projectname
 git remote set-url origin new.git.url
 ```
 
