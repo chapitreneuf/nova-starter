@@ -4,20 +4,22 @@
 
 To start a new project:
 
-1. Clone this repo and set a new git origin
+1. Clone this repo, remove `.git` and create a new repo.
 
 ```
 git clone --depth=1 --branch=master git@github.com:edinum/nova-starter.git projectname
 cd projectname
-git remote set-url origin new.git.url
+rm -rf ./.git
+git init
+git remote add origin new.git.url
 ```
 
 2. Edit `version.json` (`name` and `repository` keys)
 
-3. Commit changes
+3. Commit all changes
 
 ```
-git add version.json
+git add --all
 git commit -m "Initialisation du projet"
 ```
 
