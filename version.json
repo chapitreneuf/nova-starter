@@ -1,8 +1,8 @@
 {
   "name": "// Nom du site",
   "source": {
-    "url": "git@github.com:edinum/nova.git",
-    "tag": "2.1.0"
+    "url": "git@github.com:chapitreneuf/nova.git",
+    "tag": "2.2.2"
   },
   "repository": "// Repo de la personnalisation du site",
   "version": "1.0.0"
