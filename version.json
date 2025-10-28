@@ -2,7 +2,7 @@
   "name": "// Nom du site",
   "source": {
     "url": "git@github.com:chapitreneuf/nova.git",
-    "tag": "2.4.0"
+    "tag": "2.5.0"
   },
   "repository": "// Repo de la personnalisation du site",
   "version": "1.0.0"
